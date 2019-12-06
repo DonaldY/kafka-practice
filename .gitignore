@@ -1,0 +1,17 @@
+.settings/
+target
+log
+.idea
+.classpath
+.project
+.metadata
+RemoteSystemsTempFiles
+*.iml
+*.log
+logs
+*.txt
+#python test script
+datafind.py
+checkalldatra.py
+tmp_test.py
+mzt/
