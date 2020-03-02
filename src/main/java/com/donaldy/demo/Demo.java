@@ -14,7 +14,7 @@ public class Demo {
 
         System.out.println("==== start kafka consumer =====");
 
-        KafkaConsumerDemo kafkaConsumerDemo = new KafkaConsumerDemo("bfd_po_bbs_reply");
+        KafkaConsumerDemo kafkaConsumerDemo = new KafkaConsumerDemo("");
 
         List<ConsumerRecord> data = kafkaConsumerDemo.read(10);
 
