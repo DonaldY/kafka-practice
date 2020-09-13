@@ -19,7 +19,8 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-            <version>0.10.2.2</version>
+            <!-- 高版本兼容低版本，使用和broker一致的版本 -->
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 
